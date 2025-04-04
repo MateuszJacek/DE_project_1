@@ -4,7 +4,7 @@ services:
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
-      POSTGRES_DB: ny_taxi
+      POSTGRES_DB: baza_de_project_1
     volumes:
       - "./baza_de_project_1:/var/lib/postgresql/data:rw"
     ports:
